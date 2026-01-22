@@ -20,7 +20,7 @@ export default {
           500: '#f43f5e',
         },
         bark: {
-          pink: '#EDE5E0',
+          pink: '#EDE1D9',
         },
       },
       animation: {
