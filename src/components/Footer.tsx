@@ -10,7 +10,7 @@ const Footer: React.FC = () => {
           <div className="lg:col-span-2 space-y-8">
             <h2 className="text-4xl font-serif font-bold">bark hair</h2>
             <p className="text-neutral-500 max-w-sm text-lg leading-relaxed">
-              Crafting conscious beauty in the heart of Paddington. Join us for a unique styling experience that respects your hair and the planet.
+              Crafting conscious beauty in the heart of Acton. Join us for a unique styling experience that respects your hair and the planet.
             </p>
             <div className="flex space-x-4">
               <a href="https://www.instagram.com/bark_hair/?hl=en" target="_blank" rel="noopener noreferrer" className="w-12 h-12 rounded-full border border-neutral-200 flex items-center justify-center hover:bg-black hover:text-white transition-all">
@@ -27,11 +27,11 @@ const Footer: React.FC = () => {
             <ul className="space-y-4 text-neutral-500">
               <li className="flex items-start space-x-3">
                 <MapPin size={20} className="text-rose-400 shrink-0" />
-                <span>2/227 Given Terrace, <br />Paddington QLD 4064</span>
+                <span>Carpark, Kingsley St, <br />Acton ACT 2610</span>
               </li>
               <li className="flex items-center space-x-3">
                 <Phone size={20} className="text-rose-400 shrink-0" />
-                <span>(07) 3162 2608</span>
+                <span>0433 414 463</span>
               </li>
               <li className="flex items-center space-x-3">
                 <Mail size={20} className="text-rose-400 shrink-0" />
@@ -43,11 +43,13 @@ const Footer: React.FC = () => {
           <div className="space-y-8">
             <h4 className="text-sm font-bold uppercase tracking-widest text-neutral-900">Hours</h4>
             <ul className="space-y-2 text-neutral-500">
-              <li className="flex justify-between"><span>Mon</span> <span className="font-medium text-neutral-900">Closed</span></li>
-              <li className="flex justify-between"><span>Tue - Thu</span> <span className="font-medium text-neutral-900">10am - 8pm</span></li>
-              <li className="flex justify-between"><span>Fri</span> <span className="font-medium text-neutral-900">9am - 6pm</span></li>
-              <li className="flex justify-between"><span>Sat</span> <span className="font-medium text-neutral-900">8am - 4pm</span></li>
-              <li className="flex justify-between"><span>Sun</span> <span className="font-medium text-neutral-900">Closed</span></li>
+              <li className="flex justify-between"><span>Mon</span> <span className="font-medium text-neutral-900">We Rest</span></li>
+              <li className="flex justify-between"><span>Tue</span> <span className="font-medium text-neutral-900">10am - 8pm</span></li>
+              <li className="flex justify-between"><span>Wed</span> <span className="font-medium text-neutral-900">10am - 8pm</span></li>
+              <li className="flex justify-between"><span>Thu</span> <span className="font-medium text-neutral-900">10am - 8:30pm</span></li>
+              <li className="flex justify-between"><span>Fri</span> <span className="font-medium text-neutral-900">9am - 5pm</span></li>
+              <li className="flex justify-between"><span>Sat</span> <span className="font-medium text-neutral-900">8:30am - 1:30pm</span></li>
+              <li className="flex justify-between"><span>Sun</span> <span className="font-medium text-neutral-900">We Rest</span></li>
             </ul>
           </div>
 

@@ -15,7 +15,7 @@ const About: React.FC = () => {
                 About Us
               </h3>
               <p className="text-neutral-400 leading-relaxed text-lg max-w-md">
-                Bark Hair is a boutique Paddington hair salon with a focus on sustainable luxury.
+                Bark Hair is a boutique Acton hair salon with a focus on sustainable luxury.
                 Our team of dedicated professionals craft personalized styles that highlight your natural beauty
                 while using the world's finest eco-conscious products.
               </p>

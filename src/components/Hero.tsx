@@ -10,7 +10,7 @@ const Hero: React.FC = () => {
           <div className="flex items-center space-x-4">
             <div className="h-[2px] w-16 bg-black"></div>
             <span className="text-sm font-semibold tracking-[0.2em] uppercase text-neutral-500">
-              Paddington, Brisbane
+              Acton, Canberra
             </span>
           </div>
 
