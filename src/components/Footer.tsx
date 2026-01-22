@@ -13,10 +13,10 @@ const Footer: React.FC = () => {
               Crafting conscious beauty in the heart of Paddington. Join us for a unique styling experience that respects your hair and the planet.
             </p>
             <div className="flex space-x-4">
-              <a href="#" className="w-12 h-12 rounded-full border border-neutral-200 flex items-center justify-center hover:bg-black hover:text-white transition-all">
+              <a href="https://www.instagram.com/bark_hair/?hl=en" target="_blank" rel="noopener noreferrer" className="w-12 h-12 rounded-full border border-neutral-200 flex items-center justify-center hover:bg-black hover:text-white transition-all">
                 <Instagram size={20} />
               </a>
-              <a href="#" className="w-12 h-12 rounded-full border border-neutral-200 flex items-center justify-center hover:bg-black hover:text-white transition-all">
+              <a href="https://www.facebook.com/BarkHair" target="_blank" rel="noopener noreferrer" className="w-12 h-12 rounded-full border border-neutral-200 flex items-center justify-center hover:bg-black hover:text-white transition-all">
                 <Facebook size={20} />
               </a>
             </div>

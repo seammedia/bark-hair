@@ -34,7 +34,7 @@ const Navbar: React.FC = () => {
           <h1 className="text-3xl font-serif font-bold tracking-tighter">bark hair</h1>
         </div>
 
-        {/* Desktop Nav Links Right + Auth */}
+        {/* Desktop Nav Links Right + Book Now */}
         <div className="flex items-center space-x-4">
           <div className="hidden md:flex items-center space-x-8 mr-8">
             {NAV_ITEMS.slice(3).map((item) => (
@@ -43,10 +43,9 @@ const Navbar: React.FC = () => {
               </a>
             ))}
           </div>
-          <button className="hidden sm:block text-sm font-medium px-4 py-2 hover:text-rose-400">Login</button>
-          <button className="bg-black text-white text-xs font-bold uppercase tracking-widest px-8 py-3 rounded-full hover:bg-neutral-800 transition-all transform hover:scale-105">
-            Sign Up
-          </button>
+          <a href="https://phorest.com/book/salons/barkhairptyltd" target="_blank" rel="noopener noreferrer" className="bg-black text-white text-xs font-bold uppercase tracking-widest px-8 py-3 rounded-full hover:bg-neutral-800 transition-all transform hover:scale-105">
+            Book Now
+          </a>
         </div>
       </div>
 

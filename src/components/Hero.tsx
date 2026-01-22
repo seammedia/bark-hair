@@ -21,9 +21,9 @@ const Hero: React.FC = () => {
           </h2>
 
           <div className="flex flex-col sm:flex-row items-center gap-8 pt-4">
-            <button className="w-full sm:w-auto bg-black text-white px-10 py-5 rounded-full text-sm font-bold uppercase tracking-widest hover:bg-neutral-800 transition-all shadow-xl hover:-translate-y-1">
-              Booking Now
-            </button>
+            <a href="https://phorest.com/book/salons/barkhairptyltd" target="_blank" rel="noopener noreferrer" className="w-full sm:w-auto bg-black text-white px-10 py-5 rounded-full text-sm font-bold uppercase tracking-widest hover:bg-neutral-800 transition-all shadow-xl hover:-translate-y-1 text-center">
+              Book Now
+            </a>
             <button className="flex items-center space-x-4 group">
               <div className="w-14 h-14 rounded-full bg-white flex items-center justify-center shadow-lg group-hover:scale-110 transition-transform">
                 <Play fill="black" size={20} className="ml-1" />
