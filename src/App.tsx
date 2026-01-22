@@ -19,22 +19,22 @@ const App: React.FC = () => {
           <div className="max-w-7xl mx-auto px-6">
             <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
               <div className="aspect-square bg-neutral-100 rounded-3xl overflow-hidden group">
-                <img src="https://images.unsplash.com/photo-1590540179852-211d6b45e390?auto=format&fit=crop&q=80&w=800" className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500" alt="Gallery" />
+                <img src="/img/client-stylist.png" className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500" alt="Client and stylist" />
               </div>
               <div className="aspect-square bg-neutral-100 rounded-3xl overflow-hidden group mt-12">
-                <img src="https://images.unsplash.com/photo-1582095133179-bfd08e2fc6b3?auto=format&fit=crop&q=80&w=800" className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500" alt="Gallery" />
+                <img src="/img/hair-cutting.png" className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500" alt="Hair cutting" />
               </div>
               <div className="aspect-square bg-neutral-100 rounded-3xl overflow-hidden group">
-                <img src="https://images.unsplash.com/photo-1593121925328-369ec8459c08?auto=format&fit=crop&q=80&w=800" className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500" alt="Gallery" />
+                <img src="/img/mens-cut.png" className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500" alt="Men's haircut" />
               </div>
               <div className="aspect-square bg-neutral-100 rounded-3xl overflow-hidden group mt-12">
-                <img src="https://images.unsplash.com/photo-1560066984-138dadb4c035?auto=format&fit=crop&q=80&w=800" className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500" alt="Gallery" />
+                <img src="/img/products.png" className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500" alt="Hair products" />
               </div>
             </div>
             <div className="text-center mt-16">
-              <button className="text-sm font-bold uppercase tracking-widest border-b-2 border-neutral-900 pb-2 hover:text-rose-400 hover:border-rose-400 transition-all">
+              <a href="https://www.instagram.com/bark_hair/?hl=en" target="_blank" rel="noopener noreferrer" className="text-sm font-bold uppercase tracking-widest border-b-2 border-neutral-900 pb-2 hover:text-rose-400 hover:border-rose-400 transition-all">
                 View Full Instagram Feed
-              </button>
+              </a>
             </div>
           </div>
         </section>
