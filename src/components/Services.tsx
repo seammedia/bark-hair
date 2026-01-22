@@ -26,9 +26,9 @@ const Services: React.FC = () => {
               <p className="text-neutral-500 mb-8 leading-relaxed">{service.description}</p>
               <div className="flex justify-between items-center pt-6 border-t border-neutral-50">
                 <span className="text-sm font-bold tracking-widest uppercase text-neutral-900">{service.price}</span>
-                <button className="p-3 rounded-full bg-neutral-50 group-hover:bg-rose-400 group-hover:text-white transition-all">
+                <a href="https://phorest.com/book/salons/barkhairptyltd" target="_blank" rel="noopener noreferrer" className="p-3 rounded-full bg-neutral-50 group-hover:bg-rose-400 group-hover:text-white transition-all">
                   <ArrowRight size={18} />
-                </button>
+                </a>
               </div>
             </div>
           ))}

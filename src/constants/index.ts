@@ -15,20 +15,38 @@ export const STATS = [
 export const SERVICES = [
   {
     id: '01',
-    title: 'Balayage & Color',
-    description: 'Hand-painted, sun-kissed highlights that grow out beautifully. Our signature technique creates natural, dimensional color.',
-    price: 'From $250',
+    title: 'Haircuts & Blow Drys',
+    description: 'Expert cuts tailored to your face shape, hair texture, and lifestyle. Gender-neutral pricing for all. Includes consultation and styling.',
+    price: 'From $75',
   },
   {
     id: '02',
-    title: 'Precision Cutting',
-    description: 'Expert cuts tailored to your face shape, hair texture, and lifestyle. Includes consultation and styling.',
-    price: 'From $95',
+    title: 'Colouring Services',
+    description: 'From balayage to full colour transformations. Hand-painted highlights, toners, and creative colour work using premium eco-conscious products.',
+    price: 'From $150',
   },
   {
     id: '03',
-    title: 'Treatments & Care',
-    description: 'Restorative treatments using premium, sustainable products. Deep conditioning, keratin, and scalp therapies.',
-    price: 'From $75',
+    title: 'Hair Botox',
+    description: 'Deep conditioning treatment that restores shine, reduces frizz, and repairs damaged hair. Perfect for dry or chemically treated hair.',
+    price: 'From $250',
+  },
+  {
+    id: '04',
+    title: 'Nanoplasty',
+    description: 'Organic smoothing treatment that eliminates frizz and adds incredible shine. Long-lasting results with no harsh chemicals.',
+    price: 'From $300',
+  },
+  {
+    id: '05',
+    title: 'Perm',
+    description: 'Modern perming techniques for natural-looking waves and curls. From beach waves to defined curls, customized to your style.',
+    price: 'From $200',
+  },
+  {
+    id: '06',
+    title: 'Hair Extensions',
+    description: 'Premium quality hair extensions for added length and volume. Expert application and colour matching for seamless results.',
+    price: 'Consultation Required',
   },
 ];
