@@ -7,9 +7,9 @@ export const NAV_ITEMS = [
 ];
 
 export const STATS = [
-  { value: '12+', label: 'Years Experience' },
-  { value: '5k', label: 'Happy Clients' },
-  { value: '100%', label: 'Eco Products' },
+  { value: 'LGBTQIA+', label: 'Inclusive Salon' },
+  { value: '100s', label: 'Happy Clients' },
+  { value: '95%', label: 'Waste Recycled' },
 ];
 
 export const SERVICES = [

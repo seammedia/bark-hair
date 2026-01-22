@@ -56,7 +56,7 @@ const Footer: React.FC = () => {
         </div>
 
         <div className="pt-12 flex flex-col md:flex-row justify-between items-center gap-6 text-sm text-neutral-400">
-          <p>&copy; 2024 Bark Hair Salon. All Rights Reserved.</p>
+          <p>&copy; 2026 Bark Hair Salon. All Rights Reserved.</p>
           <div className="flex space-x-8">
             <a href="#" className="hover:text-black">Privacy Policy</a>
             <a href="#" className="hover:text-black">Terms of Service</a>

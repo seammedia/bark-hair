@@ -17,18 +17,19 @@ const About: React.FC = () => {
                   About Us
                 </h3>
                 <p className="text-neutral-400 leading-relaxed text-lg max-w-md">
-                  Bark Hair is a boutique Acton hair salon with a focus on sustainable luxury.
-                  Our team of dedicated professionals craft personalized styles that highlight your natural beauty
-                  while using the world's finest eco-conscious products.
+                  At Bark Hair, we are a boutique salon passionate about crafting beautiful, effortless hairstyles and delivering a truly luxurious experience for every client. Renowned for our innovative and fresh approach to colour and styling, we continually stay ahead of industry trends and techniques.
+                </p>
+                <p className="text-neutral-400 leading-relaxed text-lg max-w-md">
+                  Our carefully selected team is not only highly skilled but also deeply passionate about hair. We guarantee you will leave Bark Hair looking and feeling exceptional, with a salon committed to a healthier planet.
                 </p>
               </div>
 
               {/* Stats Grid */}
-              <div className="bg-neutral-900/50 border border-neutral-800 p-10 rounded-[40px] flex justify-between items-center backdrop-blur-sm">
+              <div className="bg-neutral-900/50 border border-neutral-800 p-8 md:p-10 rounded-[40px] flex flex-wrap justify-between items-center gap-6 backdrop-blur-sm">
                 {STATS.map((stat, idx) => (
-                  <div key={idx} className={`flex items-baseline space-x-2 ${idx !== STATS.length - 1 ? 'border-r border-neutral-800 pr-8' : ''}`}>
-                    <span className="text-3xl md:text-4xl font-serif font-bold">{stat.value}</span>
-                    <span className="text-[10px] uppercase tracking-widest text-neutral-500 font-bold max-w-[60px] leading-tight">
+                  <div key={idx} className={`flex items-baseline space-x-2 ${idx !== STATS.length - 1 ? 'md:border-r border-neutral-800 md:pr-6' : ''}`}>
+                    <span className="text-2xl md:text-3xl font-serif font-bold">{stat.value}</span>
+                    <span className="text-[10px] uppercase tracking-widest text-neutral-500 font-bold max-w-[70px] leading-tight">
                       {stat.label}
                     </span>
                   </div>
