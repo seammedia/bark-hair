@@ -40,7 +40,7 @@ const App: React.FC = () => {
         </section>
 
         {/* Newsletter / CTA Section */}
-        <section className="py-24 bg-rose-50/50">
+        <section className="py-24 bg-bark-pink">
           <div className="max-w-4xl mx-auto px-6 text-center space-y-12">
             <h2 className="text-4xl md:text-5xl font-serif text-neutral-900 italic">
               Experience the art of <br /> conscious hair care

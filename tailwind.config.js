@@ -19,6 +19,9 @@ export default {
           400: '#fb7185',
           500: '#f43f5e',
         },
+        bark: {
+          pink: '#EDE5E0',
+        },
       },
       animation: {
         'bounce-slow': 'bounce 3s infinite',
