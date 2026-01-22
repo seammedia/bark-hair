@@ -66,39 +66,31 @@ const About: React.FC = () => {
       </section>
 
       {/* Sustainable Salon Section */}
-      <section id="about" className="py-24 md:py-32 bg-rose-50/30">
+      <section id="about" className="py-24 md:py-32 bg-neutral-50">
         <div className="max-w-4xl mx-auto px-6 text-center">
-          <h2 className="text-5xl md:text-7xl font-serif text-amber-900 mb-12">
+          <h2 className="text-5xl md:text-7xl font-serif italic text-neutral-900 mb-16">
             Sustainable Salon
           </h2>
 
-          <div className="space-y-8 text-neutral-600 italic text-lg md:text-xl leading-relaxed">
-            <p>We Recycle up to 95% of our salons waste.</p>
+          <div className="space-y-10 text-neutral-500 text-lg md:text-xl leading-relaxed">
+            <p className="italic">We Recycle up to 95% of our salons waste.</p>
 
             <p>
-              <span className="font-semibold not-italic text-amber-900">Hair Booms</span> - Hair under 20cm creates Hair booms which soak up oil spills.
+              <span className="font-bold not-italic text-neutral-900">Hair Booms</span>
+              <span className="italic"> - Hair under 20cm creates Hair booms which soak up oil spills.</span>
             </p>
 
             <p>
-              <span className="font-semibold not-italic text-amber-900">Plastic</span> - We recycle ALL 7 types of plastic in Australia and turn it back into long term plastic, even Glasses Frames!
+              <span className="font-bold not-italic text-neutral-900">Plastic</span>
+              <span className="italic"> - We recycle ALL 7 types of plastic in Australia and turn it back into long term plastic, even Glasses Frames!</span>
             </p>
 
             <p>
-              <span className="font-semibold not-italic text-amber-900">Ponytails</span> - Sustainable Salons and our members are the largest donator of medical wigs in the Southern Hemisphere!! 80,000 Ponytails donated to date, to help people suffering from hair loss due to cancer treatment and Alopecia.
+              <span className="font-bold not-italic text-neutral-900">Ponytails</span>
+              <span className="italic"> - Sustainable Salons and our members are the largest donator of medical wigs in the Southern Hemisphere!! 80,000 Ponytails donated to date, to help people suffering from hair loss due to cancer treatment and Alopecia.</span>
             </p>
 
-            <p className="pt-4">There will be a fee of $3 per visit!</p>
-          </div>
-
-          <div className="mt-12">
-            <a
-              href="https://www.sustainablesalons.org/"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="inline-block bg-rose-200/50 hover:bg-rose-200 text-neutral-800 px-12 py-4 rounded-lg text-sm font-medium uppercase tracking-widest transition-all"
-            >
-              Read More
-            </a>
+            <p className="italic pt-4">There will be a fee of $3 per visit!</p>
           </div>
         </div>
       </section>
