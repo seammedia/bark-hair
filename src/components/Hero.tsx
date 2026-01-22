@@ -81,6 +81,9 @@ const Hero: React.FC = () => {
                   src="/img/before-hair.jpeg"
                   alt="Before - Unstyled hair"
                   className="w-full h-full object-cover"
+                  style={{
+                    filter: 'brightness(0.7) contrast(1.2) saturate(0.8)',
+                  }}
                 />
               </div>
               {/* Custom cursor indicator */}
