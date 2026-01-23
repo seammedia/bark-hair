@@ -44,7 +44,7 @@ const Hero: React.FC = () => {
             {/* Arched image container */}
             <div className="arch-mask aspect-[4/5] bg-neutral-200 overflow-hidden shadow-2xl relative">
               <img
-                src="/img/Bark HAir.avif"
+                src="/img/salon-hero.png"
                 alt="Bark Hair Salon"
                 className="absolute inset-0 w-full h-full object-cover"
               />
