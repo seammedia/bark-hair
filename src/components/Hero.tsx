@@ -14,7 +14,7 @@ const Hero: React.FC = () => {
             </span>
           </div>
 
-          <h2 className="text-6xl md:text-8xl font-serif leading-[1.1] text-neutral-900">
+          <h2 className="text-6xl md:text-8xl font-serif leading-[1.1] text-bark-blue">
             Where <span className="italic">care</span> <br />
             meets <br />
             <span className="text-white drop-shadow-[0_2px_2px_rgba(0,0,0,0.2)]">creativity</span>

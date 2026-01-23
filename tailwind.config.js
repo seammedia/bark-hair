@@ -22,6 +22,7 @@ export default {
         bark: {
           pink: '#EDE1D9',
           purple: '#CDB6DA',
+          blue: '#2596be',
         },
       },
       animation: {
