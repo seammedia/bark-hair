@@ -1,20 +1,7 @@
-import React, { useState, useRef } from 'react';
+import React from 'react';
 import { Play } from 'lucide-react';
 
 const Hero: React.FC = () => {
-  const [mousePosition, setMousePosition] = useState({ x: 0, y: 0 });
-  const [isHovering, setIsHovering] = useState(false);
-  const imageRef = useRef<HTMLDivElement>(null);
-
-  const handleMouseMove = (e: React.MouseEvent<HTMLDivElement>) => {
-    if (imageRef.current) {
-      const rect = imageRef.current.getBoundingClientRect();
-      const x = ((e.clientX - rect.left) / rect.width) * 100;
-      const y = ((e.clientY - rect.top) / rect.height) * 100;
-      setMousePosition({ x, y });
-    }
-  };
-
   return (
     <section className="relative min-h-screen pt-32 pb-16 overflow-hidden soft-gradient">
       <div className="max-w-7xl mx-auto px-6 grid grid-cols-1 lg:grid-cols-12 items-center gap-12">
@@ -28,9 +15,9 @@ const Hero: React.FC = () => {
           </div>
 
           <h2 className="text-6xl md:text-8xl font-serif leading-[1.1] text-neutral-900">
-            All for the <br />
-            <span className="italic">sake</span> of your <br />
-            <span className="text-white drop-shadow-[0_2px_2px_rgba(0,0,0,0.2)]">beauty</span>
+            Where <span className="italic">care</span> <br />
+            meets <br />
+            <span className="text-white drop-shadow-[0_2px_2px_rgba(0,0,0,0.2)]">creativity</span>
           </h2>
 
           <div className="flex flex-col sm:flex-row items-center gap-8 pt-4">
@@ -54,55 +41,20 @@ const Hero: React.FC = () => {
           <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[120%] h-[120%] bg-rose-100/50 rounded-full blur-3xl -z-10"></div>
 
           <div className="relative w-full max-w-lg">
-            {/* Arched image container with spotlight reveal effect */}
-            <div
-              ref={imageRef}
-              className="arch-mask aspect-[4/5] bg-neutral-200 overflow-hidden shadow-2xl relative cursor-none"
-              onMouseMove={handleMouseMove}
-              onMouseEnter={() => setIsHovering(true)}
-              onMouseLeave={() => setIsHovering(false)}
-            >
-              {/* After image (base layer - always visible) */}
+            {/* Arched image container */}
+            <div className="arch-mask aspect-[4/5] bg-neutral-200 overflow-hidden shadow-2xl relative">
               <img
-                src="/img/after-hair.png"
-                alt="After - Styled hair"
+                src="/img/Bark HAir.avif"
+                alt="Bark Hair Salon"
                 className="absolute inset-0 w-full h-full object-cover"
               />
-              {/* Before image (revealed on hover with spotlight effect) */}
-              <div
-                className="absolute inset-0 transition-opacity duration-300"
-                style={{
-                  opacity: isHovering ? 1 : 0,
-                  maskImage: `radial-gradient(circle 80px at ${mousePosition.x}% ${mousePosition.y}%, black 0%, transparent 100%)`,
-                  WebkitMaskImage: `radial-gradient(circle 80px at ${mousePosition.x}% ${mousePosition.y}%, black 0%, transparent 100%)`,
-                }}
-              >
-                <img
-                  src="/img/before-hair.jpeg"
-                  alt="Before - Unstyled hair"
-                  className="w-full h-full object-cover"
-                  style={{
-                    filter: 'brightness(0.7) contrast(1.2) saturate(0.8)',
-                  }}
-                />
-              </div>
-              {/* Custom cursor indicator */}
-              {isHovering && (
-                <div
-                  className="absolute w-40 h-40 border-2 border-white/50 rounded-full pointer-events-none transition-transform duration-75 -translate-x-1/2 -translate-y-1/2"
-                  style={{
-                    left: `${mousePosition.x}%`,
-                    top: `${mousePosition.y}%`,
-                  }}
-                />
-              )}
               <div className="absolute inset-0 bg-gradient-to-t from-neutral-900/40 via-transparent to-transparent pointer-events-none"></div>
             </div>
 
             {/* Floating Detail Card */}
             <div className="absolute -bottom-8 -left-8 md:-left-12 bg-white/80 backdrop-blur-md p-6 rounded-2xl shadow-xl border border-white/50">
-              <p className="text-xs uppercase tracking-[0.2em] font-bold text-neutral-400 mb-1">Hover to reveal</p>
-              <p className="text-xl font-serif font-bold text-neutral-900 leading-tight">Before & <br />After</p>
+              <p className="text-xs uppercase tracking-[0.2em] font-bold text-neutral-400 mb-1">Eco-friendly</p>
+              <p className="text-xl font-serif font-bold text-neutral-900 leading-tight">Sustainable <br />Salon</p>
             </div>
           </div>
         </div>

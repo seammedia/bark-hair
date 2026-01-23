@@ -13,17 +13,17 @@ const Navbar: React.FC = () => {
   }, []);
 
   return (
-    <nav className={`fixed w-full z-50 transition-all duration-300 ${scrolled ? 'bg-bark-pink/95 backdrop-blur-md shadow-sm py-4' : 'bg-transparent py-6'}`}>
+    <nav className={`fixed w-full z-50 transition-all duration-300 ${scrolled ? 'bg-bark-purple/95 backdrop-blur-md shadow-sm py-4' : 'bg-bark-purple py-6'}`}>
       <div className="max-w-7xl mx-auto px-6 flex justify-between items-center">
         {/* Mobile Menu Toggle */}
-        <button className="md:hidden p-2" onClick={() => setIsOpen(!isOpen)}>
+        <button className="md:hidden p-2 text-neutral-800" onClick={() => setIsOpen(!isOpen)}>
           {isOpen ? <X size={24} /> : <Menu size={24} />}
         </button>
 
         {/* Desktop Nav Links Left */}
         <div className="hidden md:flex items-center space-x-8">
           {NAV_ITEMS.slice(0, 3).map((item) => (
-            <a key={item.label} href={item.href} className="text-sm font-medium hover:text-rose-400 transition-colors uppercase tracking-widest">
+            <a key={item.label} href={item.href} className="text-sm font-medium text-neutral-800 hover:text-rose-500 transition-colors uppercase tracking-widest">
               {item.label}
             </a>
           ))}
@@ -31,14 +31,14 @@ const Navbar: React.FC = () => {
 
         {/* Logo */}
         <div className="absolute left-1/2 -translate-x-1/2">
-          <h1 className="text-3xl font-serif font-bold tracking-tighter">bark hair</h1>
+          <img src="/img/images.jpeg" alt="Bark Hair" className="h-12" />
         </div>
 
         {/* Desktop Nav Links Right + Book Now */}
         <div className="flex items-center space-x-4">
           <div className="hidden md:flex items-center space-x-8 mr-8">
             {NAV_ITEMS.slice(3).map((item) => (
-              <a key={item.label} href={item.href} className="text-sm font-medium hover:text-rose-400 transition-colors uppercase tracking-widest">
+              <a key={item.label} href={item.href} className="text-sm font-medium text-neutral-800 hover:text-rose-500 transition-colors uppercase tracking-widest">
                 {item.label}
               </a>
             ))}
