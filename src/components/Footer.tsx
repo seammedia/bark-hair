@@ -8,7 +8,7 @@ const Footer: React.FC = () => {
         <div className="grid grid-cols-1 lg:grid-cols-4 gap-16 pb-20 border-b border-neutral-100">
 
           <div className="lg:col-span-2 space-y-8">
-            <h2 className="text-4xl font-serif font-bold">bark hair</h2>
+            <img src="/img/images.jpeg" alt="Bark Hair" className="h-20" />
             <p className="text-neutral-500 max-w-sm text-lg leading-relaxed">
               Crafting conscious beauty in the heart of Acton. Join us for a unique styling experience that respects your hair and the planet.
             </p>
