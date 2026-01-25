@@ -1,0 +1,26 @@
+{
+  "permissions": {
+    "allow": [
+      "WebFetch(domain:barkhair.com.au)",
+      "Bash(git init:*)",
+      "Bash(git add:*)",
+      "Bash(git commit:*)",
+      "Bash(gh auth status:*)",
+      "Bash(git remote add:*)",
+      "Bash(git branch:*)",
+      "Bash(git push:*)",
+      "Bash(vercel whoami:*)",
+      "Bash(vercel:*)",
+      "Bash(for:*)",
+      "Bash(do echo \"$f\")",
+      "Bash(done)",
+      "WebFetch(domain:www.barkhair.com.au)",
+      "Bash(npm run build:*)",
+      "Bash(npx tsc)",
+      "Bash(npx vite build)",
+      "Bash(npm install)",
+      "Bash(gh repo view:*)",
+      "Bash(npx vercel:*)"
+    ]
+  }
+}

@@ -31,7 +31,7 @@ const Navbar: React.FC = () => {
 
         {/* Logo */}
         <div className="absolute left-1/2 -translate-x-1/2">
-          <img src="/img/images.jpeg" alt="Bark Hair" className="h-12" />
+          <img src="/img/images.jpeg" alt="Bark Hair" className="h-20 md:h-24" />
         </div>
 
         {/* Desktop Nav Links Right + Book Now */}

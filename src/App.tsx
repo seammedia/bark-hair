@@ -43,12 +43,13 @@ const App: React.FC = () => {
         <section className="py-24 bg-bark-pink">
           <div className="max-w-4xl mx-auto px-6 text-center space-y-12">
             <h2 className="text-4xl md:text-5xl font-serif text-neutral-900 italic">
-              Experience the art of <br /> conscious hair care
+              Stay in the loop
             </h2>
+            <p className="text-neutral-500 text-lg">Sign up for news, offers, and all things Bark Hair.</p>
             <div className="flex flex-col sm:flex-row justify-center items-center gap-4">
               <input
                 type="email"
-                placeholder="Join our mailing list"
+                placeholder="Your email address"
                 className="w-full sm:w-80 px-8 py-5 rounded-full bg-white border-none shadow-sm focus:ring-2 focus:ring-rose-200 outline-none"
               />
               <button className="w-full sm:w-auto bg-black text-white px-10 py-5 rounded-full text-xs font-bold uppercase tracking-widest hover:bg-neutral-800 transition-all">

@@ -8,11 +8,11 @@ const Services: React.FC = () => {
       <div className="max-w-7xl mx-auto px-6">
         <div className="flex flex-col md:flex-row justify-between items-end mb-16 gap-8">
           <div className="space-y-4">
-             <span className="text-sm font-bold tracking-[0.3em] uppercase text-rose-400">Our Curated Menu</span>
-             <h2 className="text-5xl font-serif text-neutral-900">Expert Services</h2>
+             <span className="text-sm font-bold tracking-[0.3em] uppercase text-rose-400">What We Do</span>
+             <h2 className="text-5xl font-serif text-neutral-900">Our Services</h2>
           </div>
           <p className="max-w-md text-neutral-500 text-lg leading-relaxed">
-            Elevate your hair game with our premium techniques. We specialize in lived-in color, precision cutting, and high-performance treatments.
+            We are a tier and level based salon, so prices vary per service and stylist depending on their experience. Hair is truly our passion!
           </p>
         </div>
 

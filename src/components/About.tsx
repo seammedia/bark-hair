@@ -20,7 +20,7 @@ const About: React.FC = () => {
                   At Bark Hair, we are a boutique salon passionate about crafting beautiful, effortless hairstyles and delivering a truly luxurious experience for every client. Renowned for our innovative and fresh approach to colour and styling, we continually stay ahead of industry trends and techniques.
                 </p>
                 <p className="text-neutral-400 leading-relaxed text-lg max-w-md">
-                  Our carefully selected team is not only highly skilled but also deeply passionate about hair. We guarantee you will leave Bark Hair looking and feeling exceptional, with a salon committed to a healthier planet.
+                  Our carefully selected team is not only highly skilled but also deeply passionate about hair. We guarantee you will leave Bark Hair looking and feeling exceptional, knowing you have experienced the best in modern hair artistry, with a salon committed to a healthier planet. Hair is truly our passion!
                 </p>
               </div>
 
