@@ -13,7 +13,7 @@ const Navbar: React.FC = () => {
   }, []);
 
   return (
-    <nav className={`fixed w-full z-50 transition-all duration-300 ${scrolled ? 'bg-bark-purple/95 backdrop-blur-md shadow-sm py-6' : 'bg-bark-purple py-8'}`}>
+    <nav className={`fixed w-full z-50 transition-all duration-300 ${scrolled ? 'bg-bark-purple/95 backdrop-blur-md shadow-sm py-8' : 'bg-bark-purple py-8'}`}>
       <div className="max-w-7xl mx-auto px-6 flex justify-between items-center">
         {/* Mobile Menu Toggle */}
         <button className="md:hidden p-2 text-neutral-800" onClick={() => setIsOpen(!isOpen)}>
