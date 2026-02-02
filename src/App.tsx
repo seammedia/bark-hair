@@ -45,7 +45,7 @@ const App: React.FC = () => {
             <h2 className="text-4xl md:text-5xl font-serif text-neutral-900 italic">
               Stay in the loop
             </h2>
-            <p className="text-neutral-500 text-lg">Sign up for news, offers, and all things Bark Hair.</p>
+            <p className="text-neutral-500 text-lg">Sign up for news, offers, and all things <span className="font-bark">Bark Hair</span>.</p>
             <div className="flex flex-col sm:flex-row justify-center items-center gap-4">
               <input
                 type="email"

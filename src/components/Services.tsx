@@ -12,7 +12,7 @@ const Services: React.FC = () => {
              <h2 className="text-5xl font-serif text-neutral-900">Our Services</h2>
           </div>
           <p className="max-w-md text-neutral-500 text-lg leading-relaxed">
-            We are a tier and level based salon, so prices vary per service and stylist depending on their experience. Hair is truly our passion!
+            We are a tier and level based salon, so prices vary per service and stylist depending on their experience. Click any service to book online.
           </p>
         </div>
 

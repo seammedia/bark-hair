@@ -14,13 +14,13 @@ const About: React.FC = () => {
               <div className="space-y-6">
                 <h3 className="text-4xl md:text-5xl font-serif">
                   <span className="text-neutral-600 block mb-2">02 /</span>
-                  About Us
+                  Meet the Team
                 </h3>
                 <p className="text-neutral-400 leading-relaxed text-lg max-w-md">
-                  At Bark Hair, we are a boutique salon passionate about crafting beautiful, effortless hairstyles and delivering a truly luxurious experience for every client. Renowned for our innovative and fresh approach to colour and styling, we continually stay ahead of industry trends and techniques.
+                  At <span className="font-bark text-white">Bark Hair</span>, we are a boutique salon passionate about crafting beautiful, effortless hairstyles and delivering a truly luxurious experience for every client. Renowned for our innovative and fresh approach to colour and styling, we continually stay ahead of industry trends and techniques.
                 </p>
                 <p className="text-neutral-400 leading-relaxed text-lg max-w-md">
-                  Our carefully selected team is not only highly skilled but also deeply passionate about hair. We guarantee you will leave Bark Hair looking and feeling exceptional, knowing you have experienced the best in modern hair artistry, with a salon committed to a healthier planet. Hair is truly our passion!
+                  Our carefully selected team is not only highly skilled but also deeply passionate about hair. Click through to meet each stylist and discover their specialties. We guarantee you will leave <span className="font-bark text-white">Bark Hair</span> looking and feeling exceptional!
                 </p>
               </div>
 

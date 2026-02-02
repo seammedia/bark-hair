@@ -2,12 +2,24 @@
 @tailwind components;
 @tailwind utilities;
 
+@font-face {
+  font-family: 'Drupadi';
+  src: url('/Drupadi-Regular.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
 body {
-  font-family: 'Plus Jakarta Sans', sans-serif;
+  font-family: 'Garamond', 'EB Garamond', Georgia, serif;
 }
 
 .font-serif {
   font-family: 'Playfair Display', serif;
+}
+
+.font-bark {
+  font-family: 'Drupadi', serif;
 }
 
 .arch-mask {

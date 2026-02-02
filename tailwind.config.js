@@ -7,8 +7,9 @@ export default {
   theme: {
     extend: {
       fontFamily: {
-        sans: ['Plus Jakarta Sans', 'system-ui', 'sans-serif'],
+        sans: ['EB Garamond', 'Garamond', 'Georgia', 'serif'],
         serif: ['Playfair Display', 'Georgia', 'serif'],
+        bark: ['Drupadi', 'serif'],
       },
       colors: {
         rose: {
@@ -20,8 +21,13 @@ export default {
           500: '#f43f5e',
         },
         bark: {
+          cream: '#f2e6de',
+          copper: '#a65523',
+          olive: '#aea27f',
+          beige: '#ebe2d8',
+          tan: '#cec5ae',
+          purple: '#ddc5f1',
           pink: '#EDE1D9',
-          purple: '#ddc4f0',
           blue: '#2596be',
         },
       },

@@ -17,7 +17,7 @@ const Hero: React.FC = () => {
           <h2 className="text-6xl md:text-8xl font-serif leading-[1.1] text-neutral-900">
             Where <span className="italic">care</span> <br />
             meets <br />
-            <span className="text-white drop-shadow-[0_2px_2px_rgba(0,0,0,0.2)]">creativity</span>
+            <span className="text-bark-copper italic">creativity</span>
           </h2>
 
           <div className="flex flex-col sm:flex-row items-center gap-8 pt-4">
