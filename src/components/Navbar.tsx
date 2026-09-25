@@ -13,7 +13,7 @@ const Navbar: React.FC = () => {
   }, []);
 
   return (
-    <nav className={`fixed w-full z-50 transition-all duration-300 ${scrolled ? 'bg-bark-purple/95 backdrop-blur-md shadow-sm py-8' : 'bg-bark-purple py-8'}`}>
+    <nav className={`fixed w-full z-50 transition-all duration-300 ${scrolled ? 'bg-bark-purple/95 backdrop-blur-md shadow-sm py-4' : 'bg-bark-purple py-5'}`}>
       <div className="max-w-7xl mx-auto px-6 flex justify-between items-center">
         {/* Mobile Menu Toggle */}
         <button className="md:hidden p-2 text-neutral-800" onClick={() => setIsOpen(!isOpen)}>
@@ -23,7 +23,7 @@ const Navbar: React.FC = () => {
         {/* Desktop Nav Links Left */}
         <div className="hidden md:flex items-center space-x-8">
           {NAV_ITEMS.slice(0, 3).map((item) => (
-            <a key={item.label} href={item.href} className="text-sm font-medium text-neutral-800 hover:text-rose-500 transition-colors uppercase tracking-widest">
+            <a key={item.label} href={item.href} className="text-sm font-medium text-neutral-800 hover:text-bark-copper transition-colors uppercase tracking-widest">
               {item.label}
             </a>
           ))}
@@ -31,19 +31,20 @@ const Navbar: React.FC = () => {
 
         {/* Logo */}
         <div className="absolute left-1/2 -translate-x-1/2">
-          <img src="/img/images.jpeg" alt="Bark Hair" className="h-20 md:h-24" />
+          <img src="/img/bark-hair-monogram.png" alt="Bark Hair" className="h-9 md:hidden" />
+          <img src="/img/bark-hair-wordmark.png" alt="Bark Hair" className="hidden md:block h-10" />
         </div>
 
         {/* Desktop Nav Links Right + Book Now */}
         <div className="flex items-center space-x-4">
           <div className="hidden md:flex items-center space-x-8 mr-8">
             {NAV_ITEMS.slice(3).map((item) => (
-              <a key={item.label} href={item.href} className="text-sm font-medium text-neutral-800 hover:text-rose-500 transition-colors uppercase tracking-widest">
+              <a key={item.label} href={item.href} className="text-sm font-medium text-neutral-800 hover:text-bark-copper transition-colors uppercase tracking-widest">
                 {item.label}
               </a>
             ))}
           </div>
-          <a href="https://phorest.com/book/salons/barkhairptyltd" target="_blank" rel="noopener noreferrer" className="bg-black text-white text-xs font-bold uppercase tracking-widest px-8 py-3 rounded-full hover:bg-neutral-800 transition-all transform hover:scale-105">
+          <a href="https://apps.kitomba.com/bookings/barkhair" target="_blank" rel="noopener noreferrer" className="hidden md:inline-block bg-black text-white text-xs font-bold uppercase tracking-widest px-8 py-3 rounded-full hover:bg-neutral-800 transition-all transform hover:scale-105">
             Book Now
           </a>
         </div>
@@ -63,6 +64,15 @@ const Navbar: React.FC = () => {
                 {item.label}
               </a>
             ))}
+            <a
+              href="https://apps.kitomba.com/bookings/barkhair"
+              target="_blank"
+              rel="noopener noreferrer"
+              onClick={() => setIsOpen(false)}
+              className="mx-auto bg-black text-white text-xs font-bold uppercase tracking-widest px-8 py-4 rounded-full hover:bg-neutral-800 transition-all"
+            >
+              Book Now
+            </a>
           </div>
         </div>
       )}

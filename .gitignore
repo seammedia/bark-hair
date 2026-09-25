@@ -23,6 +23,11 @@ dist-ssr
 *.sln
 *.sw?
 
+# Client photo originals. Kept out of history: they are large source material,
+# and public/ is served verbatim by Vercel, so anything in public/img ships.
+# The web-ready .jpg files are what the site actually references.
+*.HEIC
+
 # Environment files
 .env
 .env.local

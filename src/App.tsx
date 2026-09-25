@@ -1,18 +1,39 @@
 import React from 'react';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { Analytics } from '@vercel/analytics/react';
 import Navbar from './components/Navbar';
 import Hero from './components/Hero';
 import About from './components/About';
 import Services from './components/Services';
+import Team from './components/Team';
 import Footer from './components/Footer';
+import Reviews from './components/Reviews';
+import ScrollToTop from './components/ScrollToTop';
+import Seo from './components/Seo';
 
-const App: React.FC = () => {
+// Service Pages
+import Haircuts from './pages/Haircuts';
+import BlowDrys from './pages/BlowDrys';
+import Barbering from './pages/Barbering';
+import HairTattooing from './pages/HairTattooing';
+import ExecutiveShave from './pages/ExecutiveShave';
+import Colouring from './pages/Colouring';
+import VividColour from './pages/VividColour';
+import HairBotox from './pages/HairBotox';
+import Nanoplasty from './pages/Nanoplasty';
+import Perm from './pages/Perm';
+import HairExtensions from './pages/HairExtensions';
+import HairSystems from './pages/HairSystems';
+
+const HomePage: React.FC = () => {
   return (
-    <div className="min-h-screen bg-white text-neutral-900 selection:bg-rose-100 selection:text-rose-900">
+    <div className="min-h-screen bg-white text-neutral-900 selection:bg-bark-cream selection:text-bark-copper">
       <Navbar />
       <main>
         <Hero />
         <About />
         <Services />
+        <Team />
 
         {/* Gallery Preview Section */}
         <section id="gallery" className="py-24 bg-white">
@@ -32,12 +53,14 @@ const App: React.FC = () => {
               </div>
             </div>
             <div className="text-center mt-16">
-              <a href="https://www.instagram.com/bark_hair/?hl=en" target="_blank" rel="noopener noreferrer" className="text-sm font-bold uppercase tracking-widest border-b-2 border-neutral-900 pb-2 hover:text-rose-400 hover:border-rose-400 transition-all">
+              <a href="https://www.instagram.com/bark_hair/?hl=en" target="_blank" rel="noopener noreferrer" className="text-sm font-bold uppercase tracking-widest border-b-2 border-neutral-900 pb-2 hover:text-bark-copper hover:border-bark-copper transition-all">
                 View Full Instagram Feed
               </a>
             </div>
           </div>
         </section>
+
+        <Reviews />
 
         {/* Newsletter / CTA Section */}
         <section className="py-24 bg-bark-pink">
@@ -50,7 +73,7 @@ const App: React.FC = () => {
               <input
                 type="email"
                 placeholder="Your email address"
-                className="w-full sm:w-80 px-8 py-5 rounded-full bg-white border-none shadow-sm focus:ring-2 focus:ring-rose-200 outline-none"
+                className="w-full sm:w-80 px-8 py-5 rounded-full bg-white border-none shadow-sm focus:ring-2 focus:ring-bark-copper/30 outline-none"
               />
               <button className="w-full sm:w-auto bg-black text-white px-10 py-5 rounded-full text-xs font-bold uppercase tracking-widest hover:bg-neutral-800 transition-all">
                 Subscribe
@@ -61,6 +84,31 @@ const App: React.FC = () => {
       </main>
       <Footer />
     </div>
+  );
+};
+
+const App: React.FC = () => {
+  return (
+    <Router>
+      <ScrollToTop />
+      <Seo />
+      <Routes>
+        <Route path="/" element={<HomePage />} />
+        <Route path="/services/haircuts" element={<Haircuts />} />
+        <Route path="/services/blow-drys" element={<BlowDrys />} />
+        <Route path="/services/barbering" element={<Barbering />} />
+        <Route path="/services/hair-tattooing" element={<HairTattooing />} />
+        <Route path="/services/executive-shave" element={<ExecutiveShave />} />
+        <Route path="/services/colouring" element={<Colouring />} />
+        <Route path="/services/vivid-colour" element={<VividColour />} />
+        <Route path="/services/hair-botox" element={<HairBotox />} />
+        <Route path="/services/nanoplasty" element={<Nanoplasty />} />
+        <Route path="/services/perm" element={<Perm />} />
+        <Route path="/services/hair-extensions" element={<HairExtensions />} />
+        <Route path="/services/hair-systems" element={<HairSystems />} />
+      </Routes>
+      <Analytics />
+    </Router>
   );
 };
 

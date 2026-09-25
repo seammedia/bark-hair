@@ -8,7 +8,7 @@ const Footer: React.FC = () => {
         <div className="grid grid-cols-1 lg:grid-cols-4 gap-16 pb-20 border-b border-neutral-100">
 
           <div className="lg:col-span-2 space-y-8">
-            <img src="/img/images.jpeg" alt="Bark Hair" className="h-20" />
+            <img src="/img/bark-hair-wordmark.png" alt="Bark Hair" className="h-10 md:h-12" />
             <p className="text-neutral-500 max-w-sm text-lg leading-relaxed">
               Crafting conscious beauty in the heart of Acton. Join us for a unique styling experience that respects your hair and the planet.
             </p>
@@ -26,16 +26,16 @@ const Footer: React.FC = () => {
             <h4 className="text-sm font-bold uppercase tracking-widest text-neutral-900">Visit Us</h4>
             <ul className="space-y-4 text-neutral-500">
               <li className="flex items-start space-x-3">
-                <MapPin size={20} className="text-rose-400 shrink-0" />
+                <MapPin size={20} className="text-bark-copper shrink-0" />
                 <span>Carpark, Kingsley St, <br />Acton ACT 2610</span>
               </li>
               <li className="flex items-center space-x-3">
-                <Phone size={20} className="text-rose-400 shrink-0" />
+                <Phone size={20} className="text-bark-copper shrink-0" />
                 <span>0433 414 463</span>
               </li>
               <li className="flex items-center space-x-3">
-                <Mail size={20} className="text-rose-400 shrink-0" />
-                <span>hello@barkhair.com.au</span>
+                <Mail size={20} className="text-bark-copper shrink-0" />
+                <span>admin@barkhair.com.au</span>
               </li>
             </ul>
           </div>
@@ -43,13 +43,13 @@ const Footer: React.FC = () => {
           <div className="space-y-8">
             <h4 className="text-sm font-bold uppercase tracking-widest text-neutral-900">Hours</h4>
             <ul className="space-y-2 text-neutral-500">
-              <li className="flex justify-between"><span>Mon</span> <span className="font-medium text-neutral-900">We Rest</span></li>
               <li className="flex justify-between"><span>Tue</span> <span className="font-medium text-neutral-900">10am - 8pm</span></li>
               <li className="flex justify-between"><span>Wed</span> <span className="font-medium text-neutral-900">10am - 8pm</span></li>
               <li className="flex justify-between"><span>Thu</span> <span className="font-medium text-neutral-900">10am - 8:30pm</span></li>
               <li className="flex justify-between"><span>Fri</span> <span className="font-medium text-neutral-900">9am - 5pm</span></li>
               <li className="flex justify-between"><span>Sat</span> <span className="font-medium text-neutral-900">8:30am - 1:30pm</span></li>
               <li className="flex justify-between"><span>Sun</span> <span className="font-medium text-neutral-900">We Rest</span></li>
+              <li className="flex justify-between"><span>Mon</span> <span className="font-medium text-neutral-900">We Rest</span></li>
             </ul>
           </div>
 

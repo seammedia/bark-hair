@@ -2,13 +2,129 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="icon" type="image/png" href="/favicon.png" />
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+    <meta name="theme-color" content="#DDC5F1" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Bark Hair | Sustainable Luxury Salon</title>
-    <meta name="description" content="Bark Hair is a boutique Paddington hair salon with a focus on sustainable luxury. Expert styling, balayage, and eco-conscious hair care in Brisbane." />
+    <title>Bark Hair | Inclusive Sustainable Salon - Acton, Canberra</title>
+    <meta name="description" content="Bark Hair is an inclusive, LGBTQIA+ friendly boutique salon in Acton, Canberra. Expert hair styling, colour, barbering and treatments in a sustainable, eco-conscious salon. All genders and identities welcome." />
+    <meta name="keywords" content="bark hair, hair salon Canberra, LGBTQIA+ friendly salon, inclusive salon Canberra, sustainable salon, eco salon, hair colour Canberra, barbering Canberra, queer friendly salon, Acton salon, gender inclusive salon, hair extensions Canberra, nanoplasty, hair botox, all genders welcome" />
+    <meta name="author" content="Bark Hair" />
+    <meta name="robots" content="index, follow, max-image-preview:large" />
+    <meta property="og:title" content="Bark Hair | Inclusive Sustainable Salon - Acton, Canberra" />
+    <meta property="og:description" content="An inclusive, LGBTQIA+ friendly boutique salon in Acton, Canberra. Expert styling, colour and treatments in a sustainable, eco-conscious environment. All genders welcome." />
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="Bark Hair" />
+    <meta property="og:locale" content="en_AU" />
+    <meta property="og:image" content="https://barkhair.com.au/img/team-hero.jpg" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Bark Hair | Inclusive Sustainable Salon - Acton, Canberra" />
+    <meta name="twitter:description" content="An inclusive, LGBTQIA+ friendly boutique salon in Acton, Canberra. Expert styling, colour and treatments in a sustainable, eco-conscious environment. All genders welcome." />
+    <meta name="twitter:image" content="https://barkhair.com.au/img/team-hero.jpg" />
+    <meta name="geo.region" content="AU-ACT" />
+    <meta name="geo.placename" content="Acton, Canberra" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+    <!--
+      Canonical is set per route by src/components/Seo.tsx, NOT here. This is a
+      client-rendered SPA, so one index.html serves all 13 routes; a static
+      canonical would declare every service page a duplicate of the homepage.
+      og:url is intentionally absent for the same reason - social scrapers do
+      not run JavaScript, so a static og:url would mislabel every service page.
+    -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "HairSalon",
+        "@id": "https://barkhair.com.au/#salon",
+        "name": "Bark Hair",
+        "alternateName": "Bark Hair Salon",
+        "description": "An inclusive, LGBTQIA+ friendly boutique hair salon in Acton, Canberra. Styling, colour, barbering and hair treatments in a sustainable, eco-conscious salon. All genders and identities welcome.",
+        "slogan": "Where care meets creativity",
+        "url": "https://barkhair.com.au/",
+        "image": "https://barkhair.com.au/img/team-hero.jpg",
+        "logo": "https://barkhair.com.au/img/bark-hair-wordmark.png",
+        "telephone": "+61433414463",
+        "email": "admin@barkhair.com.au",
+        "priceRange": "$$",
+        "currenciesAccepted": "AUD",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "Carpark, Kingsley St",
+          "addressLocality": "Acton",
+          "addressRegion": "ACT",
+          "postalCode": "2610",
+          "addressCountry": "AU"
+        },
+        "areaServed": [
+          { "@type": "City", "name": "Canberra" },
+          { "@type": "AdministrativeArea", "name": "Australian Capital Territory" }
+        ],
+        "openingHoursSpecification": [
+          {
+            "@type": "OpeningHoursSpecification",
+            "dayOfWeek": ["Tuesday", "Wednesday"],
+            "opens": "10:00",
+            "closes": "20:00"
+          },
+          {
+            "@type": "OpeningHoursSpecification",
+            "dayOfWeek": "Thursday",
+            "opens": "10:00",
+            "closes": "20:30"
+          },
+          {
+            "@type": "OpeningHoursSpecification",
+            "dayOfWeek": "Friday",
+            "opens": "09:00",
+            "closes": "17:00"
+          },
+          {
+            "@type": "OpeningHoursSpecification",
+            "dayOfWeek": "Saturday",
+            "opens": "08:30",
+            "closes": "13:30"
+          }
+        ],
+        "sameAs": [
+          "https://www.instagram.com/bark_hair/",
+          "https://www.facebook.com/BarkHair",
+          "https://www.google.com/maps/place/Bark+Hair/data=!4m2!3m1!1s0x0:0xf5fe7ecc4af3e1bd"
+        ],
+        "potentialAction": {
+          "@type": "ReserveAction",
+          "name": "Book an appointment",
+          "target": {
+            "@type": "EntryPoint",
+            "urlTemplate": "https://apps.kitomba.com/bookings/barkhair",
+            "actionPlatform": [
+              "https://schema.org/DesktopWebPlatform",
+              "https://schema.org/MobileWebPlatform"
+            ]
+          },
+          "result": { "@type": "Reservation", "name": "Hair appointment" }
+        },
+        "hasOfferCatalog": {
+          "@type": "OfferCatalog",
+          "name": "Salon Services",
+          "itemListElement": [
+            { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Haircuts", "url": "https://barkhair.com.au/services/haircuts" } },
+            { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Blow Drys", "url": "https://barkhair.com.au/services/blow-drys" } },
+            { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Barbering", "url": "https://barkhair.com.au/services/barbering" } },
+            { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Hair Tattooing (Tracks)", "url": "https://barkhair.com.au/services/hair-tattooing" } },
+            { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Executive Head & Face Shave", "url": "https://barkhair.com.au/services/executive-shave" } },
+            { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Colouring", "url": "https://barkhair.com.au/services/colouring" } },
+            { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Vivid Colour", "url": "https://barkhair.com.au/services/vivid-colour" } },
+            { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Hair Botox", "url": "https://barkhair.com.au/services/hair-botox" } },
+            { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Nanoplasty", "url": "https://barkhair.com.au/services/nanoplasty" } },
+            { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Perm", "url": "https://barkhair.com.au/services/perm" } },
+            { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Hair Extensions", "url": "https://barkhair.com.au/services/hair-extensions" } },
+            { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Hair Systems", "url": "https://barkhair.com.au/services/hair-systems" } }
+          ]
+        }
+      }
+    </script>
   </head>
   <body>
     <div id="root"></div>

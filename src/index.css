@@ -28,7 +28,7 @@ body {
 }
 
 .soft-gradient {
-  background: radial-gradient(circle at top right, #fdf2f2, #fffaf5, #f5f5f5);
+  background: radial-gradient(circle at top right, #F7F1FC, #FDFBFF, #FEFEFE);
 }
 
 /* Smooth scrolling */
@@ -38,6 +38,15 @@ html {
 
 /* Custom selection colors */
 ::selection {
-  background-color: #ffe4e6;
-  color: #881337;
+  background-color: #F1E9FB;
+  color: #421D06;
+}
+
+/* Focus ring color override to espresso brown */
+*:focus {
+  outline-color: #421D06 !important;
+}
+
+*:focus-visible {
+  outline-color: #421D06 !important;
 }
