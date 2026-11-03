@@ -132,13 +132,14 @@ Dedicated section showcasing all team members with expandable cards:
 | Ally | Creative Stylist \| Vivid Colour & Barbering | Creative vivid colouring, modern barbering, 14 years |
 | Ruby | Senior Stylist \| Vivid Colours & Reds | Promoted from Emerging Senior Stylist, Sep 2026 |
 | Faith | Master Stylist & Curl Specialist | Added Sep 2026; title confirmed by Tamara 18 Sep 2026 |
-| Chloe | First Year Apprentice | Added Sep 2026; title confirmed by Tamara 18 Sep 2026 |
+| Jess | First Year Apprentice | Added Nov 2026 (replaced Chloe), photo `jess.jpg` |
 | Vi | 1st Year Apprentice | Added Sep 2026 |
 | Tamara | Bark Salon Coordinator | Day-to-day salon flow, bookings, client experience |
-| Beatrix | Tea & Tidy & Shampoo Specialists | Card bio covers Beatrix **and Evelyn** (Emma's request, Sep 2026) |
+| Evelyn | Tea & Tidy | Added Nov 2026 (replaced Beatrix), photo `evelyn.jpg` |
 
 **Notes**:
 - Jen (Happiness Receptionist) was removed in Feb 2026 at Tamara's request.
+- Chloe and Beatrix were removed in Nov 2026 at Tamara's request; Jess and Evelyn added.
 - Reet was removed in Jul 2026.
 - Sally (Cosmetic Registered Nurse) was removed on 18 Sep 2026 at Emma's request. Her card and registration number were deleted from `constants/index.ts`, and the registration-number rendering block was removed from `Team.tsx`.
 - Faith, Chloe, and Vi titles were originally inferred from their bios (Emma supplied descriptions but not titles). Tamara confirmed Faith ("Master Stylist & Curl Specialist") and Chloe ("First Year Apprentice") on 18 Sep 2026; Vi's title remains inferred.
@@ -521,7 +522,7 @@ Both completed and deployed the same day: Vi's title -> "First Year Apprentice",
 - Services are now granular (12 separate cards) for better booking UX
 - Team cards expand/collapse to show short or long descriptions (no text repetition)
 - All accent colours use bark-copper (#a65523) instead of rose/red for brand consistency
-- Team section uses placeholder initials until photos are provided
+- Team photos are deliberately instax prints shot lying on a table, uncropped and not straightened. New photos must match: convert HEIC with `sips`, centre-crop to a square (see "Extracting Staff Photos from Polaroid Shots"), no face crop or straightening. Initials only show if `image` is empty.
 - "Creativity" in tagline uses copper color (#a65523) to stand out from background
 - Services section clarifies that clicking leads to online booking
 - New salon photography can be swapped in when available

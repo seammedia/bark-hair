@@ -124,11 +124,11 @@ export const TEAM_MEMBERS = [
     image: '/img/faith.jpg',
   },
   {
-    name: 'Chloe',
+    name: 'Jess',
     title: 'First Year Apprentice',
-    shortDescription: 'Half-way through her 1st year apprenticeship, Chloe has a passion for vibrant colours, creative buzz cuts, and alternative styles. She loves bold colours, unique patterns, and creating hair that feels individual.',
-    longDescription: 'Half-way through her 1st year apprenticeship, Chloe has a passion for vibrant colours, creative buzz cuts, and alternative styles. She loves bold colours, unique patterns, and creating hair that feels individual. Her love for hair started young, experimenting with bright and diverse colours on her friends. This grew from a passion for hairdressing into a career she has always enjoyed. Outside the salon, Chloe enjoys pottery, art, textiles, and woodwork - her love for creativity inspires her work behind the chair. Chloe is energetic about learning and developing her skills, especially in vivid colouring and alternative cutting and colouring, while continuing to explore her creativity through hair.',
-    image: '/img/chloe.jpg',
+    shortDescription: 'Jess is a first year hairdressing apprentice developing her skills across every part of the salon. She\'s drawn to vivid colour, experimental cuts, and vintage styling, and loves the idea of bringing people\'s ideas to life in her chair.',
+    longDescription: 'Jess is a first year hairdressing apprentice, developing her skills across every part of the salon. She\'s drawn to vivid colour, experimental cuts, and vintage styling. Jess was inspired to take up hairdressing by a friend in the trade, and the pride he takes in his creativity behind the chair. She\'s excited to grow her styling and bring people\'s ideas to life, and she\'s genuinely invested in the process of learning - helping bring out people\'s best selves, connecting with them at their core, and showing that to the world.',
+    image: '/img/jess.jpg',
   },
   {
     name: 'Vi',
@@ -145,10 +145,10 @@ export const TEAM_MEMBERS = [
     image: '/img/tamara.jpg',
   },
   {
-    name: 'Beatrix',
-    title: 'Tea & Tidy & Shampoo Specialists',
-    shortDescription: 'Beatrix and Evelyn bring a calm, caring presence to the salon, ensuring every client feels comfortable and well looked after. With a gentle touch at the basin and a strong focus on client care, they help create a relaxing and welcoming experience.',
-    longDescription: 'Beatrix and Evelyn are our Tea & Tidy & Shampoo Specialists, bringing a calm, caring presence to the salon and ensuring every client feels comfortable and well looked after. They have a gentle touch at the basin and take pride in creating a relaxing, welcoming experience for guests from the moment they arrive. Currently completing Year 12, Beatrix is balancing her studies with hands-on salon experience, building strong foundations in client care and professional service. Her attention to detail, positive attitude, and willingness to learn make her a valued part of the team, and she is passionate about growing her skills within the hair industry.',
-    image: '/img/beatrix.jpg',
+    name: 'Evelyn',
+    title: 'Tea & Tidy',
+    shortDescription: 'Evelyn is our salon Tea & Tidy, greeting every client with a smile and genuine kindness. Her gentle, confident nature makes her the perfect person to help you feel welcome and at ease from the moment you arrive.',
+    longDescription: 'Evelyn is our salon Tea & Tidy, committed to greeting every client with a smile and kindness. Her gentle and confident nature makes her the perfect person to help you feel both welcome and at ease in the salon. Whatever beverage your heart desires, she\'s there to deliver. Outside of Bark, Evelyn is a champion cyclist across both mountain biking and velodrome.',
+    image: '/img/evelyn.jpg',
   },
 ];
