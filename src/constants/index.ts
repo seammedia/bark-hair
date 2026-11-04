@@ -131,13 +131,6 @@ export const TEAM_MEMBERS = [
     image: '/img/jess.jpg',
   },
   {
-    name: 'Vi',
-    title: 'First Year Apprentice',
-    shortDescription: 'Vi is a ray of sunshine and a bundle of energy, always. Her outgoing energy is a sure thing to put a smile on the face of every client, with her bright demeanour and love of a chat!',
-    longDescription: 'Vi is a ray of sunshine and a bundle of energy, always. Her outgoing energy is a sure thing to put a smile on the face of every client, with her bright demeanour and love of a chat! Outside of Bark, Vi loves to express her creativity through art, and enjoys gaming! She is keen to learn, and excited to meet you all as she starts to develop in her hairdressing journey!',
-    image: '/img/vi.jpg',
-  },
-  {
     name: 'Tamara',
     title: 'Bark Salon Coordinator',
     shortDescription: 'Tamara is Bark\'s Salon Coordinator, overseeing the day-to-day flow of the salon and ensuring every detail is taken care of. With a natural flair for organisation and people, she helps deliver the Bark experience you know and love.',

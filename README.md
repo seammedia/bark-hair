@@ -40,7 +40,7 @@ bark-hair/
 │   └── img/
 │       ├── bark-hair-wordmark.png    # "BARK HAIR" logo, transparent (espresso brown)
 │       ├── bark-hair-monogram.png    # "BH" monogram, transparent
-│       ├── faith.jpg / chloe.jpg / vi.jpg / ruby.jpg  # Team photos (polaroid style)
+│       ├── faith.jpg / jess.jpg / evelyn.jpg / ruby.jpg  # Team photos (polaroid style)
 │       ├── salon-hero.png           # Hero image (salon interior)
 │       ├── after-hair.png           # Gallery image
 │       ├── before-hair.jpeg         # Gallery image
@@ -133,16 +133,15 @@ Dedicated section showcasing all team members with expandable cards:
 | Ruby | Senior Stylist \| Vivid Colours & Reds | Promoted from Emerging Senior Stylist, Sep 2026 |
 | Faith | Master Stylist & Curl Specialist | Added Sep 2026; title confirmed by Tamara 18 Sep 2026 |
 | Jess | First Year Apprentice | Added Nov 2026 (replaced Chloe), photo `jess.jpg` |
-| Vi | 1st Year Apprentice | Added Sep 2026 |
 | Tamara | Bark Salon Coordinator | Day-to-day salon flow, bookings, client experience |
 | Evelyn | Tea & Tidy | Added Nov 2026 (replaced Beatrix), photo `evelyn.jpg` |
 
 **Notes**:
 - Jen (Happiness Receptionist) was removed in Feb 2026 at Tamara's request.
-- Chloe and Beatrix were removed in Nov 2026 at Tamara's request; Jess and Evelyn added.
+- Chloe and Beatrix were removed in Nov 2026 at Tamara's request; Jess and Evelyn added. Vi removed 5 Nov 2026 at Tamara's request.
 - Reet was removed in Jul 2026.
 - Sally (Cosmetic Registered Nurse) was removed on 18 Sep 2026 at Emma's request. Her card and registration number were deleted from `constants/index.ts`, and the registration-number rendering block was removed from `Team.tsx`.
-- Faith, Chloe, and Vi titles were originally inferred from their bios (Emma supplied descriptions but not titles). Tamara confirmed Faith ("Master Stylist & Curl Specialist") and Chloe ("First Year Apprentice") on 18 Sep 2026; Vi's title remains inferred.
+- Faith's title was originally inferred from her bio; Tamara confirmed "Master Stylist & Curl Specialist" on 18 Sep 2026.
 - Evelyn has no separate card or photo; she is intentionally part of Beatrix's bio.
 
 **Team Card Features**:
